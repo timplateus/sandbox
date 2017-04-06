@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "id": "http://example.com/example.json",
+    "items": {
+        "id": "/items",
+        "properties": {
+            "cf": {
+                "id": "/items/properties/cf",
+                "type": "string"
+            },
+            "n": {
+                "id": "/items/properties/n",
+                "type": "string"
+            },
+            "nc": {
+                "id": "/items/properties/nc",
+                "type": "string"
+            },
+            "s": {
+                "id": "/items/properties/s",
+                "type": "string"
+            }
+        },
+        "type": "object"
+    },
+    "type": "array"
+}
